@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Register</title>
+       <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+       </head>
+   <body>
+
+<div class="register">
+
+<h1>Εγγραφή</h1>
+  <form action="received.html" method="get">
+
+    <label for="username">
+</label>
+ 
+    <label for="password">
+</label>
+
+    
+    <label for="email">
+</label>
+
+    <input id="username" name="username" type="text" placeholder="Username" required>
+    <input id="password" name="password" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password"required>
+    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+    
+    <input type="submit" name="register button"  value="Εγγραφή">
+</form>
+  
+     </div>
+
+</body>
+</html>
